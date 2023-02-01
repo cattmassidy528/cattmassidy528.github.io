@@ -1,0 +1,97 @@
+body {
+    background-color: steelblue;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.board {
+    top: -100px;
+    position: relative;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spot {
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    background-color: powderblue;
+    height: 100px;
+    width: 100px;
+    outline: .5px solid rgb(255, 255, 255);
+}
+
+.x{
+    color: mediumvioletred;
+}
+
+.o {
+    color: hotpink;
+}
+
+.title {
+    color: aquamarine;
+    top: -100px;
+    padding: 1%;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.para {
+    color: aquamarine;
+    top: -105px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 1% ;
+    font-size: 14px;
+}
+
+.titleX {
+    color: mediumvioletred;
+    padding-left: 20px;
+    top: 40px;
+    display: grid;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.displayX {
+    color: mediumvioletred;
+
+    padding-left: 36px;
+    top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 30px;
+}
+
+.titleO {
+    color: hotpink;
+    text-decoration: underline;
+    padding-left: 20px;
+    top: 50px;
+    display: grid;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 16px;
+}
+.displayO {
+    color: hotpink;
+    padding-left: 36px;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 30px;
+}

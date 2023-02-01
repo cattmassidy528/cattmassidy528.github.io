@@ -1,0 +1,58 @@
+
+body {
+    background: linear-gradient(25deg,
+    #3B71CA,
+    
+    /* rgb(0, 157, 255), */
+    rgb(26, 121, 253),
+    rgb(255, 206, 45),
+
+    rgb(0, 2, 10),
+    
+    rgb(2, 22, 139), 
+    rgb(0, 157, 255));
+
+}
+
+
+.nav-link:hover {
+    padding: -10px;
+    transition: all .5s ease-in-out;
+    background-color: rgb(9, 3, 127);
+}
+
+.aboutMe {
+    box-shadow: rgba(0, 0, 0, 0.16) 10px 10px 40px, rgb(51, 51, 51) 1px 1px 10px 3px;
+
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(-45deg, 
+    rgb(127, 127, 127) 0%,
+    rgb(255, 249, 202) 100%)
+}
+.awful {
+    line-height: 1.6;
+
+}
+.me {
+    outline: 4px rdge rgb(171, 143, 83);
+
+    box-shadow: rgba(0, 0, 0, 0.16) 10px 10px 40px, rgb(51, 51, 51) 1px 1px 10px 3px;
+}
+#topOfPage {
+    transition: 3s;
+}
+#mitx-challenges {
+    transition: 3s;
+}
+#personal-works {
+    transition: 3s;
+}
+.card {
+    padding: .5%;
+    box-shadow: rgba(0, 2, 74, 0.16) 10px 10px 40px, rgb(13, 0, 81) 1px 1px 10px 3px;
+
+}
+.card-img-top {
+    object-fit: cover;
+}

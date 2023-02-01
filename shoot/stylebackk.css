@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+}
+
+.area {
+    background-image: url('./images/steel-blue.png');
+    align-items: center;
+    outline: 8px solid steelblue;
+    height: 600px;
+    width: 400px;
+    position: relative;   
+}
+
+.ship {
+    position: absolute;
+    background-color: blue;
+    text-align: center;
+    color: rgb(8, 180, 8);
+    font-size: 38px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 10px solid blue;
+    border-bottom: 0px;
+}
+
+.enemy {
+    position: absolute;
+    background-color: honeydew;
+    outline: 5px solid crimson;
+    text-align: center;
+    color: crimson;
+    border-radius: 50%;
+    font-size: 20px;
+    top: 5px;
+}
+.laser {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 18px;
+    width: 48px;
+    font-size: 16px;
+    transform: rotate(270deg);
+    position: absolute;
+    color: blue;
+    background-color: greenyellow;
+}
+
+
+.jsScoreTitle {
+    color: blue;
+    opacity: 90%;
+    font-size: 26px;
+    position: absolute;
+    right: 5px;
+    z-index: 100;
+}
+
+.jsScore {
+    color: blue;
+    font-size: 45px;
+    position: absolute;
+    right: 35px;
+    z-index: 100;
+}
+
+.playerScoreTitle {
+    padding-left: 5px;
+    color: blue;
+    opacity: 90%;
+    font-size: 26px;
+    position: absolute;
+    left: 0px;
+    z-index: 100;
+}
+.playerScore {
+    padding-left: 25px;
+    color: blue;
+    font-size: 45px;
+    position: absolute;
+    left: 0px;
+    z-index: 100;
+}

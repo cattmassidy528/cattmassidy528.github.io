@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .map-overlay {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+  }
+  /* .mapboxgl-marker {
+    position: absolute;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  } */
+  
